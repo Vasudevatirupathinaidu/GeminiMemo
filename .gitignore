@@ -10,6 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 apikey.js
+GeminiMemoVideo.mov
+
 dist-ssr
 *.local
 
