@@ -1,0 +1,87 @@
+/* Search Box */
+.search-box {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.search-form {
+  max-width: 100%;
+  width: 55vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.search-form input {
+  width: 80%;
+  height: 50px;
+  font-size: 1rem;
+  padding-left: 1rem;
+  border: 1px solid var(--clr-primary-100);
+  border-radius: 30px;
+  outline: 1px var(--clr-primary-100);
+  background-color: var(--clr-primary-200);
+  color: var(--clr-neutral-200);
+  -webkit-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+
+.search-form input:hover:enabled {
+  border: 1px solid var(--clr-neutral-100);
+}
+
+.search-form button {
+  font-size: 1.1rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--clr-primary-100);
+  background-color: var(--clr-primary-300);
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+
+.search-form button:hover:enabled {
+  border: 1px solid var(--clr-neutral-100);
+  background-color: var(--clr-primary-200);
+  -webkit-transform: translateX(-2px);
+  -ms-transform: translateX(-2px);
+  transform: translateX(-2px);
+}
+
+.search-form button:active:enabled {
+  background-color: var(--clr-primary-200);
+  -webkit-transform: translateX(3px);
+  -ms-transform: translateX(3px);
+  transform: translateX(3px);
+}
+
+.search-form button svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: var(--clr-neutral-200);
+}
+
+@media only screen and (max-width: 1024px) {
+  .search-form {
+    width: 80vw;
+  }
+}

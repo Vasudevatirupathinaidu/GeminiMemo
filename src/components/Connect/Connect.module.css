@@ -1,0 +1,32 @@
+/* Contact */
+.contact {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0rem 0.5rem;
+  z-index: 99999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact a {
+  color: var(--clr-primary-200);
+  padding: 0 0.2rem;
+  cursor: pointer;
+}
+
+.contact a svg {
+  width: 25px;
+  height: 25px;
+  fill: var(--clr-primary-400);
+  transition: all 250ms ease;
+}
+
+.contact a svg:hover {
+  fill: var(--clr-neutral-200);
+}
+
+.contact a svg:active {
+  fill: var(--clr-neutral-200);
+}
