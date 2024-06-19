@@ -5,7 +5,7 @@ export default function Connect() {
   return (
     <div className={styles["contact"]}>
       <a
-        href="https://github.com/Vasudevatirupathinaidu"
+        href="https://github.com/Vasudevatirupathinaidu/GeminiMemo"
         target="_blank"
         rel="noopener noreferrer"
       >
