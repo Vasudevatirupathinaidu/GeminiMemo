@@ -2,7 +2,7 @@
 
 Gemini Memo is a web tool that integrates with the Gemini API to create and manage digital memo - memorandum with customizable colors and drag-and-drop functionality. This application is perfect for organizing information, brainstorming ideas, and creating mind maps.
 
-- ReactJs (Context API), CSS Modules, Vite (Frontend tooling), Figma (Design tool).
+- React.js (Context API), CSS Modules, Vite (Frontend tooling), Figma (Design tool) and Netlify (Hosting).
 
 ## Demo
 
